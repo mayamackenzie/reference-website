@@ -18,7 +18,7 @@
 </head>
 <body>
 <header>Web Design 1 Reference Site</header>
-
+<!-- Not much to comment on other than the fact that this website is super random! -->
 
 <nav role="navigation" id="nav">
   <ul>
@@ -28,14 +28,13 @@
   </ul>
   </header>
 </nav>
-
+<main role="main">
 
 <p class="intro">
 <h1>Introduction</h1>
 <section id="intro">
 <p>This is a paragraph. I set this text in place by using the p tag.</p>
 </section>
-
 
 <h2>Listing items using li tag</h2>
 <section id="listingitemsli">
@@ -44,8 +43,7 @@
 <li>List item 3</li>
 </section>
 
-
-<h2>Listing items using ul tag </h2>
+<h3>Listing items using ul tag </h3>
 <section id="listingitemsul">
 <ul>
   <li>List item 1</li>
@@ -54,8 +52,7 @@
 </ul>
 </section>
 
-
-<h2>Listing items using ol tag</h2>
+<h4>Listing items using ol tag</h4>
 <section id="listingitemsol">
   <ol>
 <li>List item 1</li>
@@ -64,30 +61,40 @@
 </ol>
 </section>
 
-
-<h2>Creating description list</h2>
+<section id="descriptionlist">
+<h5>Creating description list</h5>
 <dt>Name:</dt>
 <dd>Maya MacKenzie</dd>
 <dt>Age:<dt>
 <dd>22</dd>
 <dt>Education:</dt>
 <dd>Algonquin College</dd>
+</section>
 
+<section id="strong">
+<h6>I am <strong>VERY</strong> tired right now</h6>
+<p>But hey, the semester is almost over!</p>
+</section>
 
 <section id="cartoon">
   <p class="favourites">My Favourite Cartoon Characters</p>
 <h3>Eric Cartman</h3>
 <p>Demonstration of my ability to link images and websites within a section.</p>
-
+<figure>
 <img src="https://cdn.shopify.com/s/files/1/0170/5859/4880/products/SP-Cartman-Stand-40_600x600_crop_center.jpg?v=1618604102" alt="cartman">
-<figcaption>Eric Cartman from Southpark</figcaption>
+
+<figcaption class="image-caption">
+  <figcaption>Eric Cartman from <cite>Southpark</cite></figcaption>
+</figure>
+<p>Eric Cartmans famous quote:</p><q>I'm not fat- I'm big boned!</q>
 <li>Click here to learn more about <a href=https://en.wikipedia.org/wiki/Eric_Cartman>Eric Cartman</a>
 
   <h3>Patrick Star</h3>
   <p>Demonstration of my ability to link images and websites within a section</p>
   <img src="https://easydrawingguides.com/wp-content/uploads/2021/09/how-to-draw-patrick-star-from-spongebob-squarepants-featured-image-1200-599x1024.png" alt="patrick">
   
-  <figcaption>Patrick Star from Spongebob</figcaption>
+  <figcaption>Patrick Star from <cite>Spongebob squarepants</cite></figcaption>
+  <p>Patrick Stars famous quote:</p><q>It's too dark in here.. I cant see anything!</q>
   <li>Click here to learn more about <a href=https://en.wikipedia.org/wiki/Patrick_Star>Patrick Star</a>
 </section>
 
@@ -113,17 +120,8 @@
     <dd><a href="#nav">Return to top of page</a></dd>
   </dl>
 </div>
-
-
-
-
-
-
-
-
-
-
-<footer>
+</main>
+<footer role="contentinfo">
   <p> <small> &copy;The end</small></p>
 </footer>
 </body>
