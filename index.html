@@ -5,14 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Design 1 Reference Site</title>
+  <link rel="stylesheet" href="css/style.css"
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Fasthand&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>Web Design 1 Reference Site</header>
 
+
+<nav role="navigation" id="nav">
+  <ul>
+    <li><a href="#cartoon">Favourite Cartoon Characters</a></li>
+    <li><a href="#fonts">Styling Fonts</a></li>
+    <li><a href="page2.html">Page 2</a></li>
+  </ul>
+  </header>
+</nav>
+
+
+<p class="intro">
 <h1>Introduction</h1>
 <section id="intro">
 <p>This is a paragraph. I set this text in place by using the p tag.</p>
 </section>
+
 
 <h2>Listing items using li tag</h2>
 <section id="listingitemsli">
@@ -21,29 +44,75 @@
 <li>List item 3</li>
 </section>
 
+
 <h2>Listing items using ul tag </h2>
 <section id="listingitemsul">
-<ul>List item 1</ul>
-<ul>List item 2</ul>
-<ul>List item 3</ul>
+<ul>
+  <li>List item 1</li>
+  <li>List item 2</li>
+  <li>List item 3</li>
+</ul>
 </section>
+
 
 <h2>Listing items using ol tag</h2>
 <section id="listingitemsol">
-<ol>List item 1</ol>
-<ol>List item 2</ol>
-<ol>List item 3</ol>
+  <ol>
+<li>List item 1</li>
+<li>List item 2</li>
+<li>List item 3</li>
+</ol>
 </section>
 
 
-<h3>Linking Images</h3>
+<h2>Creating description list</h2>
+<dt>Name:</dt>
+<dd>Maya MacKenzie</dd>
+<dt>Age:<dt>
+<dd>22</dd>
+<dt>Education:</dt>
+<dd>Algonquin College</dd>
+
+
+<section id="cartoon">
+  <p class="favourites">My Favourite Cartoon Characters</p>
+<h3>Eric Cartman</h3>
+<p>Demonstration of my ability to link images and websites within a section.</p>
 
 <img src="https://cdn.shopify.com/s/files/1/0170/5859/4880/products/SP-Cartman-Stand-40_600x600_crop_center.jpg?v=1618604102" alt="cartman">
-
+<figcaption>Eric Cartman from Southpark</figcaption>
 <li>Click here to learn more about <a href=https://en.wikipedia.org/wiki/Eric_Cartman>Eric Cartman</a>
 
+  <h3>Patrick Star</h3>
+  <p>Demonstration of my ability to link images and websites within a section</p>
+  <img src="https://easydrawingguides.com/wp-content/uploads/2021/09/how-to-draw-patrick-star-from-spongebob-squarepants-featured-image-1200-599x1024.png" alt="patrick">
+  
+  <figcaption>Patrick Star from Spongebob</figcaption>
+  <li>Click here to learn more about <a href=https://en.wikipedia.org/wiki/Patrick_Star>Patrick Star</a>
+</section>
 
+<section id="fonts"
+<p class="changing-fonts"><p>Demonstrating ability to use/link google fonts and alter the appearence using CSS.</p>
+<h2>Changing fonts in CSS</h2>
+<p class="font1">Font option 1</p>
+<p class="font2">Font option 2</p>
+<p class="font3">Font option 3</p>
+</section>
 
+<div class="classes">
+  <dl>
+    <dt>Div classes</dt>
+    <dd>Helpful for altering an entire sections attributes at once</dd>
+  </dl>
+  <dl>
+    <dt>Selectors</dt>
+    <dd>Last-of-type is to select the last item within the div</dd>
+  </dl>
+  <dl>
+    <dt>Term 3</dt>
+    <dd><a href="#nav">Return to top of page</a></dd>
+  </dl>
+</div>
 
 
 
